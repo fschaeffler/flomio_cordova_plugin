@@ -31,6 +31,7 @@
             <clobbers target="flomioPlugin" />
         </js-module>
         <framework src="src/ios/FlomioSDK.framework" custom="true" />
+        <framework src="MediaPlayer.framework" />
         <header-file src="src/ios/FlomioPlugin.h" />
         <source-file src="src/ios/FlomioPlugin.m" />
     </platform>
