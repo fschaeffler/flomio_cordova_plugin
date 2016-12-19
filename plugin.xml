@@ -30,7 +30,8 @@
         <js-module src="www/FlomioPlugin.js" name="FlomioPlugin">
             <clobbers target="flomioPlugin" />
         </js-module>
+        <framework src="src/ios/FlomioSDK.framework" custom="true" />
         <header-file src="src/ios/FlomioPlugin.h" />
-		<source-file src="src/ios/FlomioPlugin.m" />
+        <source-file src="src/ios/FlomioPlugin.m" />
     </platform>
 </plugin>
