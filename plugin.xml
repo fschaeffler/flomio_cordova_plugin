@@ -31,6 +31,11 @@
             <clobbers target="flomioPlugin" />
         </js-module>
         <framework src="MediaPlayer.framework" />
+        <header-file src="src/ios/FlomioSDK/Headers/ABTBluetoothReaderManager.h" />
+        <header-file src="src/ios/FlomioSDK/Headers/FmAudioJackSessionManager.h" />
+        <header-file src="src/ios/FlomioSDK/Headers/IASKSlider.h" />
+        <header-file src="src/ios/FlomioSDK/Headers/winscard.h" />
+        <header-file src="src/ios/FlomioSDK/Headers/IASKSettingsStoreFile.h" />
         <header-file src="src/ios/FlomioSDK/Headers/IASKSpecifier.h" />
         <header-file src="src/ios/FlomioSDK/Headers/ReaderInterface.h" />
         <header-file src="src/ios/FlomioSDK/Headers/AudioJack.h" />
@@ -94,6 +99,7 @@
         <header-file src="src/ios/FlomioSDK/Headers/IASKSwitch.h" />
         <header-file src="src/ios/FlomioSDK/Headers/FmBluetoothDevice.h" />
         <header-file src="src/ios/FlomioSDK/Headers/FeitianAjReader.h" />
+        <source-file src="src/ios/FlomioSDK/Headers/utils.cpp" />
         <source-file src="src/ios/FlomioSDK/libSDKClasses.a" />
         <header-file src="src/ios/FlomioPlugin.h" />
         <source-file src="src/ios/FlomioPlugin.m" />
